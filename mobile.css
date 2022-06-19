@@ -1,0 +1,310 @@
+* {
+  box-sizing: border-box;
+}
+@media screen and (max-width: 375px) {
+  body {
+    font-family: "Open Sans";
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+  }
+  .one {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(193, 100%, 96%);
+    background-image: url(bg-hero-mobile.svg);
+    background-position: center center;
+    background-size: 100% 100%;
+    margin-left: 10%;
+    width: 80%;
+    height: 460px;
+  }
+  .one-top {
+    display: flex;
+    margin-top: 3%;
+  }
+  .one-top img {
+    height: 15px;
+    margin-left: 5%;
+  }
+  .one-top button {
+    margin-left: 80px;
+    width: 80px;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    color: rgb(161, 158, 158);
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 8px;
+  }
+  .one-down {
+    display: flex;
+    flex-direction: column;
+  }
+  .one-down-left {
+    width: 80%;
+    margin-left: 5%;
+    margin-top: 3%;
+  }
+  .one-down-left h1 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+  }
+  .one-down-left p {
+    font-size: 11px;
+    font-weight: 400;
+    margin: 20px;
+    text-align: center;
+    justify-content: center;
+  }
+  .one-down-left p button {
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    padding: 10px;
+    width: 200px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 12px;
+  }
+  .one-down-right img {
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    margin-top: 5%;
+  }
+  .two {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 70%;
+    height: 320px;
+    margin-left: 15%;
+    margin-top: 10%;
+    border-radius: 7px;
+    border: 1px solid rgb(240, 234, 234);
+  }
+  .two-left {
+    margin-left: 10%;
+    width: 80%;
+    text-align: center;
+    justify-content: center;
+  }
+  .two-left h2 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 15px;
+  }
+  .two-left p {
+    font-size: 10px;
+    font-weight: 400;
+  }
+  .two-right img {
+    height: 160px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    margin-top: 5%;
+  }
+  .three {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 320px;
+    margin-left: 15%;
+    margin-top: 5%;
+    border-radius: 7px;
+    border: 1px solid rgb(240, 234, 234);
+  }
+  .three-right {
+    margin-left: 10%;
+    width: 80%;
+    text-align: center;
+    justify-content: center;
+  }
+  .three-right h2 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 15px;
+  }
+  .three-right p {
+    font-size: 10px;
+    font-weight: 400;
+  }
+  .three-left img {
+    height: 160px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    margin-top: 5%;
+  }
+  .four {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 70%;
+    height: 320px;
+    margin-left: 15%;
+    margin-top: 5%;
+    border-radius: 7px;
+    border: 1px solid rgb(240, 234, 234);
+  }
+  .four-left {
+    margin-left: 10%;
+    width: 80%;
+    text-align: center;
+    justify-content: center;
+  }
+  .four-left h2 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 15px;
+  }
+  .four-left p {
+    font-size: 10px;
+    font-weight: 400;
+  }
+  .four-right img {
+    height: 160px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    margin-top: 5%;
+  }
+  footer {
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 100px;
+    background-color: white;
+    margin-left: 15%;
+    border-radius: 15px;
+    border: 1px solid rgb(240, 234, 234);
+    position: relative;
+    margin-bottom: -35px;
+  }
+  .footer-two {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    margin-left: 10%;
+    width: 80%;
+    height: 600px;
+  }
+  .footer-one h2 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 12px;
+  }
+  .footer-one button {
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    padding: 8px;
+    width: 150px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 10px;
+  }
+  .first {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+  }
+  .second {
+    margin-top: 80%;
+    text-align: center;
+    font-size: 10px;
+    width: 100%;
+    margin-left: 0;
+  }
+  .footer-two-one {
+    width: 80%;
+    margin-top: 20%;
+  }
+  .footer-two-one p img {
+    height: 20px;
+    filter: invert(100%) sepia(48%) saturate(2%) hue-rotate(329deg)
+      brightness(108%) contrast(100%);
+  }
+  .lep {
+    display: flex;
+  }
+  .lep i {
+    margin-right: 8%;
+  }
+  .footer-two-two {
+    width: 100%;
+    margin-top: 0;
+    margin-left: 5%;
+  }
+  .footer-two-three {
+    width: 100%;
+    margin-top: 0;
+    padding: 0;
+    margin-left: 5%;
+  }
+  .footer-two-four {
+    width: 100%;
+    margin-top: 3%;
+    text-align: center;
+  }
+  .fa-facebook-f {
+    width: 24px;
+    height: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 1px;
+    vertical-align: middle;
+    margin-right: 4%;
+    padding: 8px;
+  }
+  .fa-twitter {
+    width: 28px;
+    height: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 1px;
+    vertical-align: middle;
+    margin-right: 4%;
+    padding: 8px;
+  }
+  .fa-instagram {
+    width: 28px;
+    height: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 1px;
+    vertical-align: middle;
+    margin-right: 4%;
+    padding: 8px;
+  }
+  .fa-brands:hover {
+    cursor: pointer;
+    color: hsl(322, 100%, 66%);
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+}
